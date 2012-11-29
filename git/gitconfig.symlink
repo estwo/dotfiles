@@ -7,8 +7,8 @@
 [user]
         name = Stuart Trann
         email = strann@gmail.com
-[credential]
-        helper = osxkeychain
+#[credential]
+#        helper = osxkeychain
 #[alias]
 #        co = checkout
 #        promote = !$ZSH/bin/git-promote
@@ -22,7 +22,7 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = vim
+        editor = subl
 [apply]
         whitespace = nowarn
 [mergetool]
