@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# Find anything in any format with ack
+#
+set -e
+
+# $1 = file type
+# $2 = pattern to search for
+ack -i --$1 --column $2
