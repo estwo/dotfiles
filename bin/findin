@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Find anything in any format with ack
+# Find anything in any supported format with ack
 #
 set -e
 
