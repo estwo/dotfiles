@@ -3,4 +3,4 @@ export PATH="./bin:/usr/local/bin:/usr/local/sbin:$HOME/.sfs:$ZSH/bin:/usr/local
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 export JAVA_HOME="/Library/Java/Home"
 export PATH="$JAVA_HOME/bin:$PATH"
-export PATH="~/dev/c1/mdi/core/scripts:$PATH"
+export PATH="$HOME/dev/c1/mdi/core/scripts:$PATH"
