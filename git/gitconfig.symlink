@@ -3,31 +3,32 @@
 # You probably want to change the [user] section here since you are not me.
 
 [hub]
-        protocol = https
+	protocol = https
 [user]
-        name = Stuart Trann
-        email = strann@gmail.com
+	name = Stuart Trann
+	email = strann@gmail.com
 #[credential]
-#        helper = osxkeychain
-#[alias]
-#        co = checkout
-#        promote = !$ZSH/bin/git-promote
-#        wtf     = !$ZSH/bin/git-wtf
-#        rank-contributers = !$ZSH/bin/git-rank-contributers
-#        count   = !git shortlog -sn
+	# helper = osxkeychain
+[alias]
+	co = checkout
+	st = status
+	promote = !$ZSH/bin/git-promote
+	wtf = !$ZSH/bin/git-wtf
+	rank-contributers = !$ZSH/bin/git-rank-contributers
+	count = !git shortlog -sn
 [color]
-        diff = auto
-        status = auto
-        branch = auto
-        ui = true
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
 [core]
-        excludesfile = ~/.gitignore
-        editor = subl
+	excludesfile = ~/.gitignore
+	editor = subl
 [apply]
-        whitespace = nowarn
+	whitespace = nowarn
 [mergetool]
-        keepBackup = false
+	keepBackup = false
 [difftool]
-        prompt = false
+	prompt = false
 [help]
-        autocorrect = 1
+	autocorrect = 1

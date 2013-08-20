@@ -5,4 +5,11 @@
 set -e
 
 # use -iru to search directories ack usually ignores (like .git)
-ack -i $1
+# ack -i $1
+
+if test "$2" == ""
+then
+	exec ack -i $1
+else
+	exec ack -i --type=$1 $2
+fi

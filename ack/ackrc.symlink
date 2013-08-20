@@ -1,0 +1,6 @@
+# new filetypes for ack
+
+--type-set=less=.less
+--type-set=sass=.scss,.sass
+--type-set=txt=.txt
+--type-set=twig=.twig
