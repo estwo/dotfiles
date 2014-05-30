@@ -2,8 +2,10 @@
 export ZSH=$HOME/.dotfiles
 
 # bring z.sh into the fold
-
 . $HOME/Dropbox/sync/z/z.sh
+
+# load rbenv
+eval "$(rbenv init -)"
 
 # your project folder that we can `c [tab]` to
 #export PROJECTS=~/Code
