@@ -121,3 +121,5 @@ function set_title_tab {
 ####################
 
 set_title_tab
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
