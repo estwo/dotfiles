@@ -6,7 +6,7 @@
 	protocol = https
 [user]
 	name = Stuart Trann
-	email = strann@gmail.com
+	email = strann@ea.com
 #[credential]
 	# helper = osxkeychain
 [alias]
@@ -23,7 +23,7 @@
 	ui = true
 [core]
 	excludesfile = ~/.gitignore
-	editor = subl
+	editor = subl -n -w
 [apply]
 	whitespace = nowarn
 [mergetool]
@@ -33,6 +33,7 @@
 [help]
 	autocorrect = 1
 [mergetool "opendiff"]
-	cmd = opendiff
 [push]
 	default = simple
+[merge]
+	tool = opendiff
